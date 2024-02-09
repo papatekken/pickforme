@@ -6,7 +6,7 @@ import org.springframework.web.client.RestTemplate;
 
 @Service
 public class CatFactServiceImpl implements CatFactService {
-    public String getCatFact() {
+    public String fetchCatFact() {
         String uri = "https://catfact.ninja/fact";
         RestTemplate restTemplate = new RestTemplate();
         String catFact =  restTemplate.getForObject(uri, String.class);
