@@ -1,0 +1,10 @@
+server:
+  port:8080
+  servlet:
+    context-path:/pick-for-me
+
+management:
+  endpoints.web:
+    base-path: /api
+    exposure.include: health,info
+  endpoint.health.show-details: always
