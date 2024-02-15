@@ -1,7 +1,6 @@
 server:
   port:8080
-  servlet:
-    context-path:/pick-for-me
+
 
 management:
   endpoints.web:

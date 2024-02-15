@@ -12,7 +12,7 @@ public class CatFactController {
     CatFactServiceImpl catFactService;
     @RequestMapping(value = "/catfact")
     public String  showCatFact() {
-        String catFact =  catFactService.getCatFact();
+        String catFact =  catFactService.fetchCatFact();
         return catFact;
     }
 }
