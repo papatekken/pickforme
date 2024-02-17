@@ -1,4 +1,4 @@
-package com.allan.pickfromme;
+package com.allan.pickforme;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

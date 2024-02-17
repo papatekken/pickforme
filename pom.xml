@@ -42,7 +42,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<executable>true</executable>
-					<mainClass>com.allan.pickfromme.PickfrommeApplication</mainClass>
+					<mainClass>com.allan.pickforme.PickfrommeApplication</mainClass>
 					<layers>
 						<includeLayerTools>false</includeLayerTools>
 					</layers>

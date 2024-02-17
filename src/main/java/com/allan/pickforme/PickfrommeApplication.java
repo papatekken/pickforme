@@ -1,4 +1,4 @@
-package com.allan.pickfromme;
+package com.allan.pickforme;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
